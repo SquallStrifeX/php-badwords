@@ -13,11 +13,11 @@
 <form action="result.php" method="GET">
   <div class="mb-3">
     <label for="control-label" class="form-label">Inserisci un testo</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" name="testo">
+    <input type="text" class="form-control" id="testo" name="testo">
   </div>
   <div class="mb-3">
     <label for="control-label" class="form-label">Inserisci la parola da censurare</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" name ="censura">
+    <input type="text" class="form-control" id="censura" name ="censura">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
